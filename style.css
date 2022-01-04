@@ -54,6 +54,8 @@ h1{
   border-radius: 5px;
   padding: 0px 30px;
   text-align: justify;
+  border-radius: 5px;
+
 }
 .experience-item h2{
   font-size: 2em;
@@ -62,4 +64,18 @@ h1{
   background-image: url(image-files/bottom-section.png);
   background-repeat: no-repeat;
   background-position: left;
+}
+#left-side-experience{
+  border-left: 10px solid ;
+  border-image: linear-gradient(orange, salmon);
+  border-image-slice: 1;
+}
+#right-side-experience{
+  border-left: 10px solid;
+  border-image: linear-gradient(cyan, blue);
+  border-image-slice: 1
+}
+footer p{
+  text-align: center;
+  color: rgb(100, 100, 100);
 }
