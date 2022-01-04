@@ -10,6 +10,7 @@ h1{
 }
 section{
   display: flex;
+  margin-bottom: 120px;
 }
 .half-width{
   width: 50%;
@@ -31,6 +32,18 @@ section{
   font-weight: 700;
 }
 .top-section{
-  background-image: url(image-files/top-banner.png);
+  background-image: url(image-files/top-section.png);
   background-repeat: no-repeat;
+}
+.middle-section{
+  background-image: url(image-files/middle-section.png);
+  background-repeat: no-repeat;
+  background-position: right;
+
+}
+.middle-section p{
+  text-align: justify;
+}
+.middle-half-width{
+  padding-right: 150px;
 }
